@@ -1,0 +1,14 @@
+Figure Legends
+
+Figure 1: Heatmap depicting the resistome profile of 5653 strains from 19 different STs belonging to seven phylogroups. Frequency of each of these genes at the ST level was calculated using the formula (presence in no. of strains of ST/total no. of strains in ST) × 100 and plotted using matplotlib module. 
+
+Figure 2: Heatmap depicting the virulome profile (adhesins, invasins, iron uptake etc) of 5653 strains from 19 different STs belonging to seven phylogroups. Frequency of each of these genes at the ST level was calculated using the formula (presence in no. of strains of ST/total no. of strains in ST) × 100.
+
+Figure 3: Heatmap depicting the prevalence of genes linked with secretion systems in 5653 strains from 19 different STs belonging to seven phylogroups. Frequency of each of these genes at the ST level was calculated using the formula (presence in no. of strains of ST/total no. of strains in ST) × 100.
+
+Figure 4: A. Barplot depicting the prevalence of Class 1 integrons among the 19 STs considered under this study. B. Sunburst plot depicting the moderate and high prevalence of transposons among the 19 STs. 
+
+Figure 5: PCoA plot 
+
+Figure 6:
+
