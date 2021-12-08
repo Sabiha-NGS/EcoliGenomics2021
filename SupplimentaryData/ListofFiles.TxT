@@ -1,0 +1,5 @@
+SFile1_Metadata.xlsx :                              Metadata Information of the 5,653 genomes used in the study
+SFile2_AMRGene_Mutation_PresencePercentage:         Anbiotic Genes and Mutations Binary Feature Matrix File. 1 indicates presence and 0 indicates absence
+SFile3_Virulome_PresencePercentage:                 Virulence Genes Binary Feature Matrix File. 1 indicates presence and 0 indicates absence
+SFile4_Transposons_Integrons_PresencePercentages:   Transposons and Integroms Binary Feature Matrix File.  1 indicates presence and 0 indicates absence
+Sfile5_Important_Features:
