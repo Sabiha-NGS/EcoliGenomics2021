@@ -1,5 +1,9 @@
-SFile1_Metadata.xlsx :                              Metadata Information of the 5,653 genomes used in the study
-SFile2_AMRGene_Mutation_PresencePercentage:         Anbiotic Genes and Mutations Binary Feature Matrix File. 1 indicates presence and 0 indicates absence
-SFile3_Virulome_PresencePercentage:                 Virulence Genes Binary Feature Matrix File. 1 indicates presence and 0 indicates absence
-SFile4_Transposons_Integrons_PresencePercentages:   Transposons and Integroms Binary Feature Matrix File.  1 indicates presence and 0 indicates absence
-Sfile5_Important_Features:
+SFigure1: Heatmap depicting the prevalence of plamid classes among the genomes from 19 STs
+SFigure2: Learning Curve of best RF model 
+SFigure3: Mean decrease Accuracy plot of top 50 important features from the best RF model 
+SFile1: Metadata information of 5653 genomes
+SFile2: AMR gene and mutation percentage of presence in each of the 19 STs
+SFile3: Virulence gene percentage of presence in each of the 19 STs
+SFile4: Integrons and transposons elements percentage of presence in each of the 9 STs
+SFile5: Classification reports of the ML models trained in this study
+SFile6: NCBI CD Search Annotation results of the validated important features
