@@ -1,0 +1,30 @@
+#QUAST
+quast-5.1.0rc1/quast.py /home/pbl/Documents/users/Sabiha/ecoli-redo/above_100_ST/genomes -t 8 -o /home/pbl/Documents/users/Sabiha/ecoli-redo/above_100_ST/Quast
+
+#MLST
+conda run mlst *.fna >MLST.tsv
+
+#ezclermont (for phylogrouping)
+https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000143?crawler=true
+https://github.com/nickp60/EzClermont
+
+for i in /home/pbl/Documents/users/Anu/icmr_project/ecoli/p_d_combinations/ecoli_amk/selected/*.fna;
+do
+ ezclermont ${i} >> /home/pbl/Documents/users/Anu/icmr_project/ecoli/analysis/serotyping/ezclermont/results.txt
+done
+
+#ABRicate 
+
+conda run abricate  --db card --mincov  75 *.fna >*.tab
+
+conda run abricate  --db vfdb --mincov  75 *fna >*.tab
+
+#PointFinder
+
+python3 run_resfinder.py -o Tag -s "Escherichia coli" -l 0.6 -t 0.8 --acquired --point -ifa *.fna
+
+#Prokka
+
+
+#Roary
+roary -p 30 -f above100_roary_aln -e -n -cd 100 -g 500000 -r above100_gff/* >>log.txt 2>&1
