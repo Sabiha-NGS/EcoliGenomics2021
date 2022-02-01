@@ -1,9 +1,9 @@
-SFigure1: Heatmap depicting the prevalence of plamid classes among the genomes from 19 STs
-SFigure2: Learning Curve of best RF model 
-SFigure3: Mean decrease Accuracy plot of top 50 important features from the best RF model 
-SFile1: Metadata information of 5653 genomes
-SFile2: AMR gene and mutation percentage of presence in each of the 19 STs
-SFile3: Virulence gene percentage of presence in each of the 19 STs
-SFile4: Integrons and transposons elements percentage of presence in each of the 9 STs
-SFile5: Classification reports of the ML models trained in this study
-SFile6: NCBI CD Search Annotation results of the validated important features
+FigureS1: Heatmap depicting the prevalence of plamid classes among the genomes from 19 STs
+FigureS2: Learning Curve of best RF model 
+FigureS3: Mean decrease Accuracy plot of top 50 important features from the best RF model 
+FileS1: Metadata information of 5653 genomes
+FileS2: AMR gene and mutation percentage of presence in each of the 19 STs
+FileS3: Virulence gene percentage of presence in each of the 19 STs
+FileS4: Integrons and transposons elements percentage of presence in each of the 9 STs
+FileS5: Classification reports of the ML models trained in this study
+FileS6: NCBI CD Search Annotation results of the validated important features
